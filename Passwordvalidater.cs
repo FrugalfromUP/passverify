@@ -1,10 +1,9 @@
 using System;
-class Passwordverifier
+public class Passwordverifier
 {
 	public static bool isValid(String password)
 	{
-		if (!((password.Length >= 8)
-			&& (password.Length <= 15)))
+		if (!((password.Length >= 8)))
 		{
 			return false;
 		}
