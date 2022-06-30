@@ -70,9 +70,19 @@ public class Passwordverifier
 	public static void Main(String[] args)
 	{
 
-		String pass = "RiteshE123";
+		String pass1 = "RiteshE123";
 
-		if (isValid(pass))
+		if (isValid(pass1))
+		{
+			Console.WriteLine("Valid Password");
+		}
+		else
+		{
+			Console.WriteLine("Invalid Password");
+		}
+		String pass2 = "RiteshE123";
+
+		if (isValid(pass2))
 		{
 			Console.WriteLine("Valid Password");
 		}
